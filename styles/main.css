@@ -19,23 +19,32 @@ text-decoration: none;
 }
 
 p {color:black;
-font-size: 1.5em;
-text-align: center;}
+font-size: 1.2em;
+text-align: center;
+text-decoration: underline;;}
 
 ul {color: black;
-  font-size: 1.5em;
   list-style-type: none;
-  margin:0 auto;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0;
-  width: 200px;
+  width: 500px;
+  text-align: center;
+
+
 }
 
-li {display: inline;
+li {display: block;
   color:black;
+
+
 }
  div {background-color: white;
  width:950px;
  margin-left: auto ;
 margin-right: auto;
 border-radius: 25px;}
-img {border: black solid}
+
+img {  display: block;
+    margin: auto;
+  }
