@@ -5,9 +5,6 @@ background-color:#A0DAD4;
   background-repeat: no-repeat;
   background-size:cover;
   height: 850px;
-  background-attachment: fixed;
-
-
 }
 
 h1 {color:black;
@@ -17,7 +14,6 @@ padding-top: .3em;
 font-family: 'Ewert', serif;
 text-decoration: none;
 margin-top: 20px
-
 }
 
 p {color:black;
@@ -43,12 +39,14 @@ li {display: inline-block;
   color:black;
   text-decoration: underline;
   font-size: 1.5em;
+  margin-bottom: .5em
 
 
 }
 
- main {background-color: white;
- width:950px;
+ main {
+   background: rgba(255,255,255, 0.6);
+ width:750px;
  margin-left: auto ;
 margin-right: auto;
 border-radius: 25px;
@@ -59,14 +57,13 @@ img {  display: block;
     margin: auto;
   }
 
-  footer {background-color: white;
+  footer {background-color:white;
     font-family: 'Playfair Display', serif;
     font-size: 1.3em;
     text-align: center;
-    width: 500px;
+    margin-top: 548px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 600px
   }
 
   .codepen {margin-right: 3em}
