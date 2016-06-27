@@ -5,6 +5,7 @@ background-color:#A0DAD4;
   background-repeat: no-repeat;
   background-size:cover;
   height: 850px;
+  background-attachment: fixed;
 
 
 }
@@ -35,14 +36,15 @@ ul {color: black;
   width: 500px;
   text-align: center;
   text-decoration: underline;
-  font-size: .8em
-
+  font-size: .8em;
 }
 
-li {display: inline;
+li {display: inline-block;
   color:black;
   text-decoration: underline;
-  font-size: 1.5em
+  font-size: 1.5em;
+
+
 }
 
  main {background-color: white;
@@ -50,11 +52,13 @@ li {display: inline;
  margin-left: auto ;
 margin-right: auto;
 border-radius: 25px;
+
 }
 
 img {  display: block;
     margin: auto;
   }
+
   footer {background-color: white;
     font-family: 'Playfair Display', serif;
     font-size: 1.3em;
@@ -62,5 +66,7 @@ img {  display: block;
     width: 500px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 500px
+    margin-top: 600px
   }
+
+  .codepen {margin-right: 3em}
