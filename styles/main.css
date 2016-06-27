@@ -36,9 +36,10 @@ ul {color: black;
   text-align: center;
   text-decoration: underline;
   font-size: .8em
+
 }
 
-li {display: block;
+li {display: inline;
   color:black;
   text-decoration: underline;
   font-size: 1.5em
