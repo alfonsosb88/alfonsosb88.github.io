@@ -1,10 +1,7 @@
 body {
   font-family: "Times New Roman";
 background-color:#A0DAD4;
-  background-image: url("http://4.bp.blogspot.com/-CgbbXXygEg0/VTVdTZ9D4hI/AAAAAAAAQVQ/Dyyn_0HU_rg/s1600/San%2BFrancisco%2B(Day).png");
-  background-repeat: no-repeat;
-  background-size:cover;
-  height: 850px;
+
 }
 
 h1 {color:black;
@@ -61,9 +58,18 @@ img {  display: block;
     font-family: 'Playfair Display', serif;
     font-size: 1.3em;
     text-align: center;
-    margin-top: 548px;
-    margin-left: auto;
-    margin-right: auto;
+    border-radius: 25px;
+    width: 370px;
+    margin: 440px auto 0 auto;
   }
 
   .codepen {margin-right: 3em}
+
+ .container {
+  background-image: url("http://4.bp.blogspot.com/-CgbbXXygEg0/VTVdTZ9D4hI/AAAAAAAAQVQ/Dyyn_0HU_rg/s1600/San%2BFrancisco%2B(Day).png");
+  background-repeat: no-repeat;
+  overflow: hidden;
+  width: 1565px;
+  position: relative;
+  right: 50px
+}
